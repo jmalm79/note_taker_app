@@ -1,17 +1,18 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Note Taker App",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "JoshAlm",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
